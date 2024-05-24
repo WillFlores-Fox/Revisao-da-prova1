@@ -1,0 +1,21 @@
+package exprova01;
+
+public class ExProva01 {
+
+    public static void soma() {
+        int[] vetor1 = {1, 2, 3};
+        int[] vetor2 = {1, 2, 3};
+
+        for (int i = vetor1[0]; i <= vetor1.length; i++) {
+            for (int I = vetor2[0]; I <= vetor2.length; I++) {
+                int soma = i + I;
+                System.out.println(i + " + " + I + " = " + soma);
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        soma();
+    }
+
+}
