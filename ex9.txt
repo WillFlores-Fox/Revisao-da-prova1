@@ -1,0 +1,26 @@
+package exprova09;
+
+import java.util.Arrays;
+
+public class ExProva09 {
+
+    public static void crescente() {
+        //crescente
+        int[] n = new int[]{5, 4, 3, 2, 1};
+        Arrays.sort(n);
+        System.out.println(Arrays.toString(n));
+        //posição
+        int[] vetores = new int[]{1, 2, 3, 4, 5};
+        int numero = 2;
+        int posicao = Arrays.binarySearch(vetores, numero);
+        int local = vetores[posicao];
+        for (int i = 0; i <= vetores.length; i++) {
+            System.out.println("vetor " + local + " esta na posicao " + posicao);
+        }
+    }
+
+    public static void main(String[] args) {
+        crescente();
+    }
+
+}

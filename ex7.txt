@@ -1,0 +1,22 @@
+package exprova07;
+
+public class ExProva07 {
+    
+    public static void pareimpar(){
+     //pares e impares
+        int[] vetores1 = new int[]{1, 2, 3, 4, 5};
+        for (int i = 0; i < vetores1.length; i++) {
+            if (vetores1[i] % 2 == 0) {
+                System.out.println("numeros pares " + vetores1[i]);
+            } 
+            else {
+               System.out.println("numeros impares " + vetores1[i]);
+            }
+        }
+    }
+    
+    public static void main(String[] args) {
+        pareimpar();
+    }
+    
+}

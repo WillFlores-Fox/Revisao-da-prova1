@@ -1,0 +1,22 @@
+package exprova10;
+
+import java.util.Arrays;
+
+public class ExProva10 {
+
+    public static void sequencia() {
+        int[] vetor = {1, 2, 3, 4, 5};
+        for (int i = 0; i < vetor.length; i++) {
+            int numero = vetor[i];
+            int posicao = Arrays.binarySearch(vetor, numero);
+            int local = vetor[posicao];
+            System.out.println("vetor " + local + " posição " + posicao);
+        }
+
+    }
+
+    public static void main(String[] args) {
+        sequencia();
+    }
+
+}

@@ -1,0 +1,20 @@
+package exprova08;
+
+import java.util.Arrays;
+
+public class ExProva08 {
+    
+    public static void remove(){
+    int[] vetor = new int[]{1, 2, 3, 4, 5};
+        int[] limparV = new int[]{0};
+        for (int i = 0; i < vetor.length; i++) {
+            vetor = limparV;
+            System.out.println(Arrays.toString(vetor));
+        }
+    }
+    
+    public static void main(String[] args) {
+        remove();
+    }
+    
+}
