@@ -9,7 +9,7 @@ public class ExProva02 {
         int[] vetor1 = {5, 8, 4, 9, 1,7,3,5,1,5};
         Arrays.sort(vetor1);
         for (int i = 0; i < vetor1.length; i++) {
-            System.out.println("maior = " + vetor1[4]);
+            System.out.println("maior = " + vetor1[9]);
         }
 
     }
